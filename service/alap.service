@@ -1,0 +1,8 @@
+[Unit]
+Description=Minden beallitas
+
+[Service]
+ExecStart=/home/bence/scriptek/alap.sh
+
+[Install]
+WantedBy=default.target
