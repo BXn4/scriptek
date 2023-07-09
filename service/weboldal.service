@@ -1,0 +1,10 @@
+[Unit]
+Description=Weboldal
+After=network.target
+
+[Service]
+WorkingDirectory=/home/bence/arch/BXN4/
+ExecStart=/bin/bash -c "sleep 30 && dotnet /home/bence/arch/BXN4/./BXn4.dll"
+
+[Install]
+WantedBy=multi-user.target
